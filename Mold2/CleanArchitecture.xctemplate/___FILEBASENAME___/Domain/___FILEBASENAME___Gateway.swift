@@ -9,7 +9,7 @@
 import Foundation
 import Swinject
 
-class ___FILEBASENAMEASIDENTIFIER___Gateway: ___FILEBASENAMEASIDENTIFIER___GatewayProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
     
 }
 

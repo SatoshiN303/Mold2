@@ -8,17 +8,15 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol!
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol!
-    var router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol!
+class ___FILEBASENAMEASIDENTIFIER___ {
+    weak var view: ___VARIABLE_viperModuleName___ViewProtocol!
+    var interactor: ___VARIABLE_viperModuleName___InteractorInputProtocol!
+    var router: ___VARIABLE_viperModuleName___RouterProtocol!
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
-   
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
-    
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_viperModuleName___InteractorOutputProtocol {    
 }

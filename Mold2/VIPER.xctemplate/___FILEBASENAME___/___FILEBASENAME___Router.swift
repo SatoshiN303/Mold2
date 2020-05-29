@@ -9,7 +9,7 @@
 import Foundation
 import SwinjectStoryboard
 
-class ___FILEBASENAMEASIDENTIFIER___Router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol {
-    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol!
+class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___Protocol {
+    weak var view: ___VARIABLE_viperModuleName___ViewProtocol!
 
 }

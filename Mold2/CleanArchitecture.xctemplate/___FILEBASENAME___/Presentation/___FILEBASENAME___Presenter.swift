@@ -10,11 +10,11 @@ import Foundation
 import Swinject
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___InputProtocol {
     
-    weak var view: ___FILEBASENAMEASIDENTIFIER___PresenterOutputProtocol!
-    var useCase: ___FILEBASENAMEASIDENTIFIER___UseCaseInputProtocol!
+    weak var view: ___FILEBASENAMEASIDENTIFIER___OutputProtocol!
+    var useCase: ___VARIABLE_cleanArchitectureModuleName___UseCaseInputProtocol!
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___UseCaseOutputProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cleanArchitectureModuleName___UseCaseOutputProtocol {
 }

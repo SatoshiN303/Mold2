@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewDataSource: NSObject {
-    fileprivate let presenter: ___FILEBASENAMEASIDENTIFIER___Presenter
+final class ___FILEBASENAMEASIDENTIFIER___: NSObject {
+    fileprivate let presenter: ___VARIABLE_mvpModuleName___Presenter
     
-    init(presenter: ___FILEBASENAMEASIDENTIFIER___Presenter) {
+    init(presenter: ___VARIABLE_mvpModuleName___Presenter) {
         self.presenter = presenter
     }
     

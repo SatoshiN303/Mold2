@@ -8,14 +8,14 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ModelDelegate: AnyObject {
-    func ___FILEBASENAMEASIDENTIFIER___DidChange()
+protocol ___FILEBASENAME___Delegate: AnyObject {
+    func ___VARIABLE_mvpModuleName___DidChange()
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ModelDelegate {
-    func ___FILEBASENAMEASIDENTIFIER___DidChange()
+extension ___FILEBASENAME___Delegate {
+    func ___VARIABLE_mvpModuleName___DidChange()
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___Model {
-    weak var delegate: ___FILEBASENAMEASIDENTIFIER___ModelDelegate?
+final class ___FILEBASENAME___ {
+    weak var delegate: ___FILEBASENAME___Delegate?
 }

@@ -9,9 +9,9 @@
 import Swinject
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___UseCase: ___FILEBASENAMEASIDENTIFIER___UseCaseInputProtocol {
+class ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___InputProtocol {
     
-    weak var presenter: ___FILEBASENAMEASIDENTIFIER___UseCaseOutputProtocol!
-    var gateway: ___FILEBASENAMEASIDENTIFIER___GatewayProtocol!
+    weak var presenter: ___FILEBASENAMEASIDENTIFIER___OutputProtocol!
+    var gateway: ___VARIABLE_cleanArchitectureModuleName___GatewayProtocol!
     
 }

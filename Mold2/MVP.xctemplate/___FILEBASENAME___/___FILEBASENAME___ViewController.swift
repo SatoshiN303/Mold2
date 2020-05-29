@@ -9,18 +9,18 @@
 import Foundation
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___ViewProtocol: class {
+protocol ___VARIABLE_mvpModuleName___ViewProtocol: class {
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewProtocol {
+final class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_mvpModuleName___ViewProtocol {
     
-    let presenter: ___FILEBASENAMEASIDENTIFIER___Presenter
-    let dataSource: ___FILEBASENAMEASIDENTIFIER___ViewDataSource
+    let presenter: ___VARIABLE_mvpModuleName___Presenter
+    let dataSource: ___VARIABLE_mvpModuleName___ViewDataSource
 
-    init(presenter: ___FILEBASENAMEASIDENTIFIER___Presenter) {
+    init(presenter: ___VARIABLE_mvpModuleName___Presenter) {
         self.presenter = presenter
-        self.dataSource = ___FILEBASENAMEASIDENTIFIER___ViewDataSource(presenter: presenter)
-        super.init(nibName: ___FILEBASENAMEASIDENTIFIER___ViewController.className, bundle: nil)
+        self.dataSource = ___VARIABLE_mvpModuleName___ViewDataSource(presenter: presenter)
+        super.init(nibName:  ___FILEBASENAMEASIDENTIFIER___.className, bundle: nil)
     }
 
     required init?(coder aDecoder: NSCoder) {

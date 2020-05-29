@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
-    var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol!
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
+    var presenter: ___VARIABLE_viperModuleName___PresenterProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +32,6 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___ViewProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ____VARIABLE_viperModuleName___ViewProtocol {
    
 }

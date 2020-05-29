@@ -10,12 +10,12 @@ import Foundation
 import SwinjectStoryboard
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
+class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
     
-    var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol!
+    var presenter: ___VARIABLE_cleanArchitectureModuleName___PresenterInputProtocol!
 
-    static func makeInstance() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
-        guard let vc = SwinjectStoryboard.create(name: "___FILEBASENAMEASIDENTIFIER___", bundle: nil).instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___ViewController") as? ___FILEBASENAMEASIDENTIFIER___ViewController else {
+    static func makeInstance() -> ___FILEBASENAMEASIDENTIFIER___ {
+        guard let vc = SwinjectStoryboard.create(name: "___VARIABLE_cleanArchitectureModuleName___", bundle: nil).instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___") as? ___FILEBASENAMEASIDENTIFIER___ else {
             fatalError()
         }
         return vc
@@ -42,7 +42,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewController: ___FILEBASENAMEASIDENTIFIER___PresenterOutputProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cleanArchitectureModuleName___PresenterOutputProtocol {
 }
 
 

@@ -8,18 +8,18 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___GatewayProtocol {
+protocol ___VARIABLE_cleanArchitectureModuleName___GatewayProtocol {
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___UseCaseInputProtocol {
+protocol ___VARIABLE_cleanArchitectureModuleName___UseCaseInputProtocol {
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___UseCaseOutputProtocol: class {
+protocol ___VARIABLE_cleanArchitectureModuleName___UseCaseOutputProtocol: class {
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol {
+protocol ___VARIABLE_cleanArchitectureModuleName___PresenterInputProtocol {
 }
 
-protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutputProtocol: class {
+protocol ___VARIABLE_cleanArchitectureModuleName___PresenterOutputProtocol: class {
 }
 

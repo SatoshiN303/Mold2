@@ -8,12 +8,12 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Interactor {
+class ___FILEBASENAMEASIDENTIFIER___ {
     
-    weak var presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol!
+    weak var presenter: ___FILEBASENAMEASIDENTIFIER___OutputProtocol!
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol {
+extension ___FILEBASENAMEASIDENTIFIER___: ___FILEBASENAMEASIDENTIFIER___InputProtocol {
     
     
 }

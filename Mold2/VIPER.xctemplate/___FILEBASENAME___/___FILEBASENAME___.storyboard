@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="Gt6-Qw-EMb">
             <objects>
-                <viewController id="MuZ-25-S6S" customClass="___FILEBASENAME___ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="___FILEBASENAME___ViewController" id="MuZ-25-S6S" customClass="___FILEBASENAME___ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7uo-aU-HaI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

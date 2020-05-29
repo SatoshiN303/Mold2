@@ -8,22 +8,22 @@
 
 import Foundation
 
-protocol ___FILEBASENAMEASIDENTIFIER___Presenter: class {
-    var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol? { get set }
+protocol ___VARIABLE_mvpModuleName___Protocol: class {
+    var view: ___VARIABLE_mvpModuleName___ViewProtocol? { get set }
 }
 
-final class ___FILEBASENAMEASIDENTIFIER___ViewPresenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
+final class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_mvpModuleName___Protocol {
 
-    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol?
+    weak var view: ___VARIABLE_mvpModuleName___ViewProtocol?
 
-    private let model = ___FILEBASENAMEASIDENTIFIER___Model()
+    private let model = ___VARIABLE_mvpModuleName___Model()
 
     init() {
         self.model.delegate = self
     }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___ViewPresenter: ___FILEBASENAMEASIDENTIFIER___ModelDelegate {
-    func ___FILEBASENAMEASIDENTIFIER___DidChange() {
+extension ___VARIABLE_mvpModuleName___Presenter: ___VARIABLE_mvpModuleName___ModelDelegate {
+    func ___VARIABLE_mvpModuleName___DidChange() {
     }
 }
