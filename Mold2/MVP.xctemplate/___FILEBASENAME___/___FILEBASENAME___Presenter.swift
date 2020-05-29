@@ -8,17 +8,22 @@
 
 import Foundation
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol!
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol!
-    var router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol!
-    
+protocol ___FILEBASENAMEASIDENTIFIER___Presenter: class {
+    var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol? { get set }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
-   
+final class ___FILEBASENAMEASIDENTIFIER___ViewPresenter: ___FILEBASENAMEASIDENTIFIER___Presenter {
+
+    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol?
+
+    private let model = ___FILEBASENAMEASIDENTIFIER___Model()
+
+    init() {
+        self.model.delegate = self
+    }
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
-    
+extension ___FILEBASENAMEASIDENTIFIER___ViewPresenter: ___FILEBASENAMEASIDENTIFIER___ModelDelegate {
+    func ___FILEBASENAMEASIDENTIFIER___DidChange() {
+    }
 }
