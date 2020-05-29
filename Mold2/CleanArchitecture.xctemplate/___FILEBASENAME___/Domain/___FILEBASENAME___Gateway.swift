@@ -1,7 +1,15 @@
-//___FILEHEADER___
+//
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//___COPYRIGHT___
+//
 
-import UIKit
+import Foundation
+import Swinject
 
-class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-
+class ___FILEBASENAMEASIDENTIFIER___Gateway: ___FILEBASENAMEASIDENTIFIER___GatewayProtocol {
+    
 }
+

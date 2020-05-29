@@ -7,18 +7,14 @@
 //
 
 import Foundation
+import Swinject
+import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter {
-    weak var view: ___FILEBASENAMEASIDENTIFIER___ViewProtocol!
-    var interactor: ___FILEBASENAMEASIDENTIFIER___InteractorInputProtocol!
-    var router: ___FILEBASENAMEASIDENTIFIER___RouterProtocol!
+class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol {
     
+    weak var view: ___FILEBASENAMEASIDENTIFIER___PresenterOutputProtocol!
+    var useCase: ___FILEBASENAMEASIDENTIFIER___UseCaseInputProtocol!
 }
 
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___PresenterProtocol {
-   
-}
-
-extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutputProtocol {
-    
+extension ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___UseCaseOutputProtocol {
 }
