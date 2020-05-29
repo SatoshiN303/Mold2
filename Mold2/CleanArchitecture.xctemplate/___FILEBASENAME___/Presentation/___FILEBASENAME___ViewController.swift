@@ -3,7 +3,7 @@
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
-//___COPYRIGHT___
+//  ___COPYRIGHT___
 //
 
 import Foundation
@@ -15,7 +15,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController {
     var presenter: ___FILEBASENAMEASIDENTIFIER___PresenterInputProtocol!
 
     static func makeInstance() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
-        guard let vc = SwinjectStoryboard.create(name: "{-- Insert Storybord Name --}", bundle: nil).instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___ViewController") as? ___FILEBASENAMEASIDENTIFIER___ViewController else {
+        guard let vc = SwinjectStoryboard.create(name: "___FILEBASENAMEASIDENTIFIER___", bundle: nil).instantiateViewController(withIdentifier: "___FILEBASENAMEASIDENTIFIER___ViewController") as? ___FILEBASENAMEASIDENTIFIER___ViewController else {
             fatalError()
         }
         return vc
